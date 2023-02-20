@@ -1,8 +1,10 @@
-import { HardhatUserConfig } from "hardhat/config";
-import "@nomiclabs/hardhat-ethers";
+import { HardhatUserConfig } from 'hardhat/config';
+import '@nomicfoundation/hardhat-chai-matchers';
+import '@typechain/hardhat';
+import '@nomiclabs/hardhat-ethers';
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.17",
+  solidity: '0.8.17',
 };
 
 export default config;
